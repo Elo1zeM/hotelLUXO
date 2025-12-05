@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Playwrite New Zealand;
+    text-align: center;
+    background-color: #204429;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2e5838;
+    padding: 25px 10px;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+header img {
+    width: 177px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+nav.menu a {
+    background-color: #c8f4f1;
+    color: #0d686e;
+    padding: 8px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+nav.menu a:hover {
+    background-color: #9ae8e5;
+    transform: translateY(-3px);
+}
+
+
+
+
+
+section {
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 20px;
+}
+
+h2 {
+    color: #08676d;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+
+section img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+
+
+footer {
+    margin-top: 260px;
+    background: linear-gradient(#2e5838, #396b4e);
+    color: white;
+    padding: 30px 15px;
+}
+
+footer a {
+    color: #c6fffb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Grid de Cartões de Menu */
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 17px;
+        }
+
+        .menu-item {
+            background: #ffffff;
+            width: 750px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: #ffffff;
+            border-bottom: 5px solid transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .menu-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 230, 50, 0.2);
+            border-bottom: 7px solid #95caa6;
+        }
+
+        .icone {
+            font-size: 7em;
+            margin-bottom: 15px;
+            color: #32644b;
+        }
+
+        .titulo-card {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #347e46;
+        }
+
+        .desc-card {
+            color: #63966e;
+            font-size: 0.9em;
+        }
